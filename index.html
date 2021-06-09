@@ -1,28 +1,17 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2022.44">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
-    li.li1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
-    li.li2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000e9; -webkit-text-stroke: #0000e9}
-    span.s1 {font-kerning: none}
-    span.s2 {font: 12.0px AppleMyungjo; font-kerning: none}
-    span.s3 {-webkit-text-stroke: 0px #000000}
-    span.s4 {text-decoration: underline ; font-kerning: none; color: #0000e9}
-    ul.ul1 {list-style-type: disc}
-  </style>
-</head>
-<body>
-<p class="p1"><span class="s1">--- layout: page title: </span><span class="s2">조수현의 개발일기</span><span class="s1"> subtitle: </span><span class="s2">since 2021</span><span class="s1"> sitemap: priority: 0.9 ---</span></p>
-<ul class="ul1">
-  <li class="li1"><span class="s3"></span><span class="s1">{% for post in site.posts %}</span></li>
-  <li class="li2"><span class="s3"><a href="file:///Users/suhyunjo/github-blog/rollingman1.github.io/%7B%7B%20post.url%20%7C%20prepend:%20site.baseurl%20%7D%7D"><span class="s4">{{ post.title }} {{ post.date | date: "%d %B %Y" }}<span class="Apple-converted-space"> </span></span></a></span></li>
-  <li class="li1"><span class="s3"></span><span class="s1">{% endfor %}<span class="Apple-converted-space"> </span></span></li>
-</ul>
-</body>
-</html>
+---
+layout: page
+title: Blog
+subtitle: Hitchhiker's guid to web development
+sitemap:
+  priority: 0.9
+---
+
+<ul class="list-posts">
+    {% for post in site.posts %}
+        <li class="post-teaser">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <span class="post-teaser__title">{{ post.title }}</span>
+                <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
+            </a>
+        </li>
+    {% endfor %}
