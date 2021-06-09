@@ -1,5 +1,5 @@
 # Site settings
-title: Roll The World! 세상을 잇자
+title: Roll The World!
 description: >
   조수현의 개발 블로그 since 2021
 
@@ -7,10 +7,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://rollingman1.github.io/" # the base hostname & protocol for your site
 
 author:
-  fullname: Motaquillah Maddane
-  googleplus: https://www.google.com/+MotaquillahMaddane
-  github: kronik3r
-  twitter: electrik_frog
+  fullname: Suhyun Jo
+  github: rollingman1
   # disqus: your_disqus_forum_shortname
 
 # google_analytics: 'UA-XXXXXXXX-X'
