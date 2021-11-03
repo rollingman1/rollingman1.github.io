@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "로티(lottie) json export 시 설정할 것들"
+title:  "[Adobe After Effect] 모션 파일을 로티(lottie) json으로 export 시 설정할 것들"
 subtitle: "AE에서 작업한 컴포지션(모션)파일을 json 파일로 변환을 하려면 몇 가지 설정을 바꿔야할 필요가 있습니다. 컴포지션에 특히 이미지가 들어간 경우 이미지 임베딩을 해야지 개발이 쉬워집니다."
 date:   2021-11-03 13:14:00
 categories: [tools]
@@ -9,6 +9,11 @@ categories: [tools]
 작업 과정:
 [어도비 애프터 이펙트(AE)](https://www.adobe.com/kr/products/aftereffects.html)로 모션 작업 → [bodymovin 플러그인](https://exchange.adobe.com/creativecloud.details.12557.bodymovin.html)을 통해 컴포지션을 json으로 변환합니다.
 
+'로티(lottie)'는 주로 웹 프론트로 모션 이펙트를 주고 싶을 때 사용할 수 있는 라이브러리입니다.
+
+로티를 이용하면 모션을 json으로 변환시킨 파일을 해석하여 웹페이지 등에서 움직이는 효과를 줄 수 있습니다.
+
+일단 모션을 json으로 변환하는 방법에 대해 알아봅시다!
 # 1. AE 설정
 
 `After Effects > 환경 설정 (Preference) > 스크립팅 및 표현식 (Scripting and Expressions)`으로 들어가 
