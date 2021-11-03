@@ -15,9 +15,9 @@ categories: [tool]
 
 '스크립트를 통한 파일 쓰기 및 네트워크 엑세스 허용(allow scripts to write files and access network)' 을 체크합니다.
 
-<img src="./_posts/로티(lottie) json export 시 설정할 것들 58d99d109c244fd3972a521171c9cbaf/Untitled 1.png">
+<img src="./_posts/img/Untitled 1.png">
 
-<img src="./_posts/로티(lottie) json export 시 설정할 것들 58d99d109c244fd3972a521171c9cbaf/Untitled.png">
+<img src="./_posts/img/Untitled.png">
 
 # 2. bodymovin 설정
 
@@ -27,4 +27,4 @@ categories: [tool]
 
 json으로 변환하고자 하는 컴포지션 이름 옆에 톱니바퀴 모양 설정을 들어가 다음 그림과 같이 'Include in json'을 체크합니다.
 
-<img src="./_posts/로티(lottie) json export 시 설정할 것들 58d99d109c244fd3972a521171c9cbaf/Untitled 2.png">
+<img src="./_posts/img/Untitled 2.png">
