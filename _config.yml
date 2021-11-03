@@ -24,3 +24,11 @@ exclude: ["README.md", "README.html"]
 # Build settings
 highlighter: null
 markdown: kramdown
+
+#comment
+repository: "rollingman1/rollingman1.github.io"
+comments:
+  provider: "utterances"
+utterances:
+  theme: "github-light"
+  issue_term: "pathname"
