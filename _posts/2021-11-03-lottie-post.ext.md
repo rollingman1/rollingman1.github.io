@@ -15,9 +15,9 @@ categories: [tool]
 
 '스크립트를 통한 파일 쓰기 및 네트워크 엑세스 허용(allow scripts to write files and access network)' 을 체크합니다.
 
-<img src="./_posts/img/Untitled 1.png">
+![Untitled](https://user-images.githubusercontent.com/48819383/140011552-2c04f2e2-9979-417e-ade7-d4d1af62459a.png)
 
-<img src="./_posts/img/Untitled.png">
+![Untitled 1](https://user-images.githubusercontent.com/48819383/140011541-e9038f94-b041-4089-9933-8d2172eb0913.png)
 
 # 2. bodymovin 설정
 
@@ -27,4 +27,4 @@ categories: [tool]
 
 json으로 변환하고자 하는 컴포지션 이름 옆에 톱니바퀴 모양 설정을 들어가 다음 그림과 같이 'Include in json'을 체크합니다.
 
-<img src="./_posts/img/Untitled 2.png">
+![Untitled 2](https://user-images.githubusercontent.com/48819383/140011545-38e048ae-e4a8-4574-88fb-9c471ded5fee.png)
