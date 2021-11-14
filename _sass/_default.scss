@@ -135,13 +135,6 @@ strong {
     color: $cloudy;
 }
 
-.page-title__date {
-    font-weight: 400;
-    font-size: 15px;
-    color: $cloudy;
-    text-align: right;
-}
-
 .post-title {
     margin-bottom: 110px;
 }
@@ -153,6 +146,12 @@ strong {
 .post-title__subtitle {
     padding-top: 10px;
     font-size: 20px;
+}
+
+.post-title__date {
+    padding-top: 10px;
+    font-size: 15px;
+    text-align: right;
 }
 
 /* =Post teasers */
