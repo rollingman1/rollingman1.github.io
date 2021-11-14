@@ -16,7 +16,12 @@ categories: [tools]
 밤 10시에 들어갔다가 아이디어들이 너무 멋지고 신기해서 1시까지 계속 탐험(?)하게 되는 개미지옥같은 곳입니다!
 예를들어 이런 효과들을 볼 수 있죠!
 
-[신기하죠?](https://codepen.io/thebabydino/pen/QWMVgMj)
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="QWMVgMj" data-user="thebabydino" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/thebabydino/pen/QWMVgMj">
+  #codeVember #12/2021: bars animation</a> by Ana Tudor (<a href="https://codepen.io/thebabydino">@thebabydino</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 신기하죠?
 
