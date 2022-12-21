@@ -2,7 +2,7 @@
 layout: post
 title:  "[글] 다짐"
 subtitle: "이제부터 포스트를 써보려고 합니다"
-date:   2021-12-21 17:59:00
+date:   2022-12-21 17:59:00
 categories: [log]
 ---
 
