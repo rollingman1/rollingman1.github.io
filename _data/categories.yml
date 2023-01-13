@@ -10,3 +10,6 @@
 - slug: log
   name: Log
   
+- slug: mlops
+  name: MLOps
+
